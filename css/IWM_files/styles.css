@@ -1,0 +1,93 @@
+@import 'https://fonts.googleapis.com/css?family=Prompt:500';
+@import 'https://fonts.googleapis.com/css?family=Oswald';
+@import 'https://fonts.googleapis.com/css?family=Baloo+Paaji';
+@import url(http://fonts.googleapis.com/css?family=Share+Tech+Mono);
+@import 'https://fonts.googleapis.com/css?family=Orbitron:900';
+
+@font-face {
+  font-family: "BadComa";
+  src: url("Linebeam.ttf");
+}
+
+body {
+
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    font-family: Helvetica, sans-serif;
+    background-image: url('3px-tile.png');
+
+
+}
+
+
+.kv{
+    background-color: rgba(11, 11, 11, 0.15);
+    position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        margin-top: -150px;
+        height: 300px;
+        z-index: 1000;
+}
+ul{
+    text-align: left;
+    font-size: 150%;
+}
+li{
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    padding: 3px; /* Поля вокруг текста */
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.lk2{
+  font-family: "BadComa";
+}
+
+.center{
+    width: 400px; /* Ширина слоя в пикселах */
+    margin: 0 auto; /* Отступ слева и справа */
+    padding: 40px; /* Поля вокруг текста */
+    text-align: center; /* Выравнивание содержимого слоя по левому краю */
+}
+.nick{
+    font-size:30px;
+    font-family: 'BadComa';
+    margin-top: -1%;
+}
+.nc{
+    margin-top: -5%;
+}
+.st{
+    font-size: 15px;
+}
+
+.sexo-title{
+  transform: rotateX(33deg) rotateY(30deg);
+  text-shadow: 1px 1px 0 rgba(255,255,255,0.8), 3px 3px 0 rgba(255,255,255,0.6), 5px 5px 0 rgba(255,255,255,0.4);
+  animation: awesomeRotate 4s infinite;
+}
+
+
+
+
+@keyframes awesomeRotate {
+  0% {
+    transform: scale3d(1,1,1) rotateX(0deg);
+    text-shadow: 0 0 0 rgba(255,255,255,0), 1px 1px 0 rgba(255,255,255,0.8), 1px 2px 0 rgba(255,255,255,0.6), 1px 3px 0 rgba(255,255,255,0.4);
+  }
+
+  50%{
+    transform: scale3d(2,2,2) rotateX(50deg);
+    text-shadow: 0 0 10px rgba(255,255,255,0.8), 1px 1px 0 rgba(255,255,255,0.8), 1px 3px 0 rgba(255,255,255,0.6), 1px 5px 0 rgba(255,255,255,0.4);
+  }
+
+  100% {
+    transform: scale3d(1,1,1) rotateX(0deg);
+    text-shadow: 0 0 0 rgba(255,255,255,0), 1px 1px 0 rgba(255,255,255,0.8), 1px 2px 0 rgba(255,255,255,0.6), 1px 3px 0 rgba(255,255,255,0.4);
+  }
+}
